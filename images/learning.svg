@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Learning illustration</title>
+  <desc id="desc">A simple illustration of a notebook, lamp, and learning materials.</desc>
+  <rect width="640" height="480" rx="32" fill="#eef4fb" />
+  <rect x="100" y="120" width="220" height="200" rx="24" fill="#ffffff" stroke="#aac5e0" stroke-width="12" />
+  <path d="M140 170h160M140 210h160M140 250h110" fill="none" stroke="#5f7d98" stroke-width="14" stroke-linecap="round" />
+  <circle cx="470" cy="190" r="72" fill="#28527a" opacity="0.92" />
+  <path d="M430 186h42v68h-42z" fill="#fff" />
+  <path d="M438 238h26" stroke="#28527a" stroke-width="10" stroke-linecap="round" />
+  <path d="M300 350h250v30a15 15 0 0 1-15 15H315a15 15 0 0 1-15-15v-30z" fill="#d9e2ec" />
+  <path d="M320 300h90v40h-90z" fill="#4d7ea8" />
+  <rect x="128" y="340" width="80" height="10" rx="5" fill="#aac5e0" />
+  <rect x="228" y="340" width="80" height="10" rx="5" fill="#aac5e0" />
+</svg>

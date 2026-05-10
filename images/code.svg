@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Coding illustration</title>
+  <desc id="desc">A simple illustration of a laptop with code symbols and a browser window.</desc>
+  <rect width="640" height="480" rx="32" fill="#f6f9fc" />
+  <rect x="86" y="122" width="468" height="280" rx="28" fill="#ffffff" stroke="#cad7e3" stroke-width="12" />
+  <rect x="118" y="158" width="404" height="32" rx="12" fill="#28527a" />
+  <circle cx="158" cy="174" r="8" fill="#fff" />
+  <circle cx="182" cy="174" r="8" fill="#fff" />
+  <circle cx="206" cy="174" r="8" fill="#fff" />
+  <path d="M150 218h340M150 262h340M150 306h340" stroke="#d9e2ec" stroke-width="16" stroke-linecap="round" />
+  <path d="M210 256l-24 18 24 18" fill="none" stroke="#28527a" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M430 256l24 18-24 18" fill="none" stroke="#28527a" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M240 204h160M240 304h160" stroke="#4d7ea8" stroke-width="18" stroke-linecap="round" />
+  <rect x="122" y="420" width="396" height="24" rx="12" fill="#d9e2ec" />
+</svg>
