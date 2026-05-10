@@ -1,0 +1,7 @@
+<svg viewBox="0 0 240 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="codeTitle">
+  <title id="codeTitle">Code illustration</title>
+  <rect width="240" height="180" rx="24" fill="#e0f2fe"/>
+  <path d="M80 50l-20 20 20 20" stroke="#1d4ed8" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M160 50l20 20-20 20" stroke="#1d4ed8" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M100 90h40" stroke="#1d4ed8" stroke-width="10" stroke-linecap="round"/>
+</svg>

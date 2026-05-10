@@ -1,0 +1,8 @@
+<svg viewBox="0 0 240 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="learningTitle">
+  <title id="learningTitle">Learning illustration</title>
+  <rect width="240" height="180" rx="24" fill="#eef2ff"/>
+  <path d="M40 130h160M60 100h120M60 70h100" stroke="#2563eb" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="60" cy="65" r="10" fill="#2563eb"/>
+  <circle cx="60" cy="95" r="10" fill="#2563eb"/>
+  <circle cx="60" cy="125" r="10" fill="#2563eb"/>
+</svg>
