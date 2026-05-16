@@ -1,0 +1,43 @@
+/* larger-screen adjustments placed here to keep mobile-first file lean */
+
+@media (min-width: 900px) {
+  .header-inner {
+    gap: 1.5rem;
+  }
+  .nav-toggle {
+    display: none;
+  }
+  .main-nav {
+    display: block;
+  }
+  .nav-list {
+    flex-direction: row;
+    gap: 0.5rem;
+  }
+  .nav-list a {
+    padding: 0.5rem 1rem;
+  }
+
+  .main-content {
+    padding: 2rem 0;
+  }
+  .main-content h1 {
+    font-size: 2rem;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+  }
+  figure {
+    border-radius: 10px;
+  }
+  /* Ensure images keep a consistent aspect on large screens */
+  figure img{aspect-ratio:4/3;object-fit:cover}
+}
+
+@media (min-width: 1200px) {
+  :root {
+    --max-width: 1250px;
+  }
+}
