@@ -1,43 +1,36 @@
-/* larger-screen adjustments placed here to keep mobile-first file lean */
-
-@media (min-width: 900px) {
-  .header-inner {
-    gap: 1.5rem;
+@media screen and (min-width: 700px) {
+  .header-wrapper {
+    flex-wrap: nowrap;
   }
-  .nav-toggle {
+
+  #menu {
     display: none;
   }
-  .main-nav {
-    display: block;
-  }
-  .nav-list {
+
+  nav,
+  nav.open {
+    display: flex;
     flex-direction: row;
-    gap: 0.5rem;
-  }
-  .nav-list a {
-    padding: 0.5rem 1rem;
-  }
-
-  .main-content {
-    padding: 2rem 0;
-  }
-  .main-content h1 {
-    font-size: 2rem;
+    justify-content: flex-end;
+    width: auto;
+    margin-top: 0;
+    gap: 0.4rem;
   }
 
-  .gallery {
+  nav a {
+    padding: 0.65rem 1rem;
+  }
+
+  main {
+    padding-top: 2rem;
+  }
+
+  h1 {
+    font-size: 2.4rem;
+  }
+
+  .album {
     grid-template-columns: repeat(3, 1fr);
     gap: 1.25rem;
-  }
-  figure {
-    border-radius: 10px;
-  }
-  /* Ensure images keep a consistent aspect on large screens */
-  figure img{aspect-ratio:4/3;object-fit:cover}
-}
-
-@media (min-width: 1200px) {
-  :root {
-    --max-width: 1250px;
   }
 }

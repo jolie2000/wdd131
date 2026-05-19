@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Uganda | WDD 131 Country Page</title>
+  <meta
+    name="description"
+    content="A responsive WDD 131 country page about Uganda with country facts, weather information, responsive WebP hero images, and dynamic JavaScript content."
+  >
+  <meta name="author" content="Uwase Jolie">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="styles/place.css">
+  <script defer src="scripts/place.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Uganda</h1>
+  </header>
+
+  <main>
+    <section class="hero" aria-label="Ugandan savannah landscape">
+      <picture>
+        <source
+          media="(min-width: 800px)"
+          srcset="https://images.pexels.com/photos/32868958/pexels-photo-32868958.jpeg?auto=compress&cs=tinysrgb&fm=webp&w=1400"
+          type="image/webp"
+        >
+        <source
+          srcset="https://images.pexels.com/photos/32868958/pexels-photo-32868958.jpeg?auto=compress&cs=tinysrgb&fm=webp&w=700"
+          type="image/webp"
+        >
+        <img
+          src="https://images.pexels.com/photos/32868958/pexels-photo-32868958.jpeg?auto=compress&cs=tinysrgb&w=700"
+          alt="Green Ugandan savannah with distant hills under a clear sky"
+          width="700"
+          height="467"
+        >
+      </picture>
+    </section>
+
+    <section class="content-card data">
+      <h2>Data</h2>
+      <dl>
+        <dt>Area</dt>
+        <dd>241,038 sq km</dd>
+        <dt>Population</dt>
+        <dd>49.3 million</dd>
+        <dt>Capital</dt>
+        <dd>Kampala</dd>
+        <dt>Languages</dt>
+        <dd>English, Swahili, Luganda</dd>
+        <dt>Currency</dt>
+        <dd>Ugandan Shilling</dd>
+        <dt>Time Zone</dt>
+        <dd>UTC+3</dd>
+        <dt>Calling Code</dt>
+        <dd>+256</dd>
+        <dt>Internet TLD</dt>
+        <dd>.ug</dd>
+      </dl>
+    </section>
+
+    <section class="content-card weather">
+      <h2>Weather <img src="images/weather.svg" alt="Partly cloudy" width="48" height="48"></h2>
+      <dl>
+        <dt>Temperature</dt>
+        <dd><span id="temperature">9</span>&deg;C</dd>
+        <dt>Conditions</dt>
+        <dd>Partly Cloudy</dd>
+        <dt>Wind</dt>
+        <dd><span id="wind-speed">12</span> km/h</dd>
+        <dt>Wind Chill</dt>
+        <dd><span id="wind-chill"></span></dd>
+      </dl>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="currentyear"></span> Uwase Jolie. Uganda.</p>
+    <p>Last Modified: <span id="lastModified"></span></p>
+  </footer>
+</body>
+</html>
