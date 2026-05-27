@@ -1,0 +1,160 @@
+:root {
+  --primary: #173b57;
+  --primary-dark: #0b2235;
+  --background: #f7f4ee;
+  --surface: #ffffff;
+  --text: #1f2933;
+  --muted: #384650;
+  --accent: #b3481d;
+  --max-width: 1080px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: var(--background);
+  color: var(--text);
+  font-family: "Inter", Arial, sans-serif;
+  line-height: 1.5;
+}
+
+header,
+footer {
+  background-color: var(--primary);
+  color: #ffffff;
+}
+
+.header-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.site-title {
+  font-family: "Fraunces", Georgia, serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+#menu {
+  display: block;
+  margin: 0;
+  padding: 0.45rem 0.7rem;
+  border: 1px solid rgba(255, 255, 255, 0.75);
+  border-radius: 4px;
+  background: transparent;
+  color: #ffffff;
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+#menu::before {
+  content: "\2630";
+}
+
+#menu.open::before {
+  content: "X";
+}
+
+nav {
+  display: none;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+nav.open {
+  display: flex;
+}
+
+nav a {
+  display: block;
+  padding: 0.85rem;
+  color: #ffffff;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+nav a:hover,
+nav a:focus,
+nav a[aria-current="page"] {
+  background-color: #ffffff;
+  color: var(--primary-dark);
+}
+
+main {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 1.25rem 1rem 2rem;
+}
+
+h1,
+.temple-card h2 {
+  font-family: "Fraunces", Georgia, serif;
+}
+
+h1 {
+  margin: 0 0 1.25rem;
+  color: var(--primary-dark);
+  font-size: 2rem;
+  text-align: center;
+}
+
+.album {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.temple-card {
+  overflow: hidden;
+  background-color: var(--surface);
+  border: 1px solid #cfd7df;
+  border-radius: 6px;
+  box-shadow: 0 4px 14px rgba(15, 34, 52, 0.08);
+}
+
+.temple-card h2 {
+  margin: 0;
+  padding: 1rem 1rem 0.5rem;
+  color: var(--primary-dark);
+  font-size: 1.35rem;
+  text-align: center;
+}
+
+.temple-card p {
+  margin: 0.25rem 1rem;
+  color: var(--muted);
+  text-align: center;
+}
+
+.temple-card p:last-of-type {
+  margin-bottom: 1rem;
+}
+
+.temple-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+}
+
+footer {
+  padding: 1rem;
+  text-align: center;
+}
+
+footer p {
+  margin: 0.25rem 0;
+}

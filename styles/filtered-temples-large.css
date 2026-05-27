@@ -1,0 +1,36 @@
+@media screen and (min-width: 700px) {
+  .header-wrapper {
+    flex-wrap: nowrap;
+  }
+
+  #menu {
+    display: none;
+  }
+
+  nav,
+  nav.open {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: auto;
+    margin-top: 0;
+    gap: 0.4rem;
+  }
+
+  nav a {
+    padding: 0.65rem 1rem;
+  }
+
+  main {
+    padding-top: 2rem;
+  }
+
+  h1 {
+    font-size: 2.4rem;
+  }
+
+  .album {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.25rem;
+  }
+}
