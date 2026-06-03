@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Submitted | WDD 131</title>
+    <meta
+      name="description"
+      content="Product review confirmation page with a localStorage review submission counter for WDD 131."
+    >
+    <meta name="author" content="Uwase Jolie">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles/form.css">
+    <script defer src="scripts/getdates.js"></script>
+    <script defer src="scripts/review.js"></script>
+  </head>
+  <body>
+    <header>
+      <span class="site-title">Product Review</span>
+    </header>
+
+    <main class="confirmation">
+      <h1>Review Submitted</h1>
+      <section class="confirmation-card">
+        <h2>Thank you for your review.</h2>
+        <p>
+          Your feedback has been received and will help other customers make
+          informed product choices.
+        </p>
+        <p class="review-count">
+          Reviews completed from this browser:
+          <strong id="reviewCount">0</strong>
+        </p>
+        <a class="button-link" href="form.html">Submit Another Review</a>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; <span id="currentyear"></span> Uwase Jolie. UGANDA.</p>
+      <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+  </body>
+</html>
