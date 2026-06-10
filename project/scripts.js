@@ -15,7 +15,7 @@ const featuredDishes = [
     description:
       "Steamed green bananas with peanut sauce. A beloved traditional Ugandan staple.",
     image:
-      "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80",
+      "images/dish-matoke.jpg",
     restaurant: "Karibu Kitchen",
     price: "UGX 15,000",
     popularity: 5,
@@ -27,7 +27,7 @@ const featuredDishes = [
     description:
       "Cornmeal served with savory bean stew. Hearty and filling comfort food.",
     image:
-      "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=800&q=80",
+      "images/dish-posho.jpg",
     restaurant: "Local Cafe",
     price: "UGX 8,000",
     popularity: 4,
@@ -39,7 +39,7 @@ const featuredDishes = [
     description:
       "Chapati wrapped around eggs and vegetables. Popular street food with endless variations.",
     image:
-      "https://images.unsplash.com/photo-1626700051175-6518c4793f4f?auto=format&fit=crop&w=800&q=80",
+      "images/dish-rolex.jpg",
     restaurant: "Street Vendors",
     price: "UGX 3,000",
     popularity: 5,
@@ -51,7 +51,7 @@ const featuredDishes = [
     description:
       "Meat or chicken wrapped in banana leaves and steamed. Authentic and aromatic.",
     image:
-      "https://images.unsplash.com/photo-1606787366850-de6330128bfc?auto=format&fit=crop&w=800&q=80",
+      "images/dish-luwombo.jpg",
     restaurant: "Traditional Bites",
     price: "UGX 20,000",
     popularity: 4,
@@ -63,7 +63,7 @@ const featuredDishes = [
     description:
       "Fried pastry with savory filling. Perfect snack for any time of day.",
     image:
-      "https://images.unsplash.com/photo-1601050690597-df056fb4ce78?auto=format&fit=crop&w=800&q=80",
+      "images/dish-samosa.jpg",
     restaurant: "Street Vendors",
     price: "UGX 2,000",
     popularity: 5,
@@ -74,7 +74,7 @@ const featuredDishes = [
     category: "main",
     description: "Maize meal served with fresh seasonal vegetables and gravy.",
     image:
-      "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80",
+      "images/dish-ugali.jpg",
     restaurant: "Home Kitchen",
     price: "UGX 12,000",
     popularity: 4,
@@ -90,7 +90,7 @@ const foodGuide = [
     category: "beverages",
     description: "Sweet fried dough pastry. Often served with tea or coffee.",
     image:
-      "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=800&q=80",
+      "images/dish-mandasi.jpg",
     restaurant: "Bakeries",
     price: "UGX 500",
     popularity: 4,
@@ -102,7 +102,7 @@ const foodGuide = [
     description:
       "Flatbread made with flour and cooked on griddle. Versatile and delicious.",
     image:
-      "https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&w=800&q=80",
+      "images/dish-chapati.jpg",
     restaurant: "Various",
     price: "UGX 1,500",
     popularity: 5,
@@ -114,7 +114,7 @@ const foodGuide = [
     description:
       "Ginger and spice-infused beverage. Warm, comforting, and energizing.",
     image:
-      "https://images.unsplash.com/photo-1608500218900-8afa135d3beb?auto=format&fit=crop&w=800&q=80",
+      "images/dish-muamba.jpg",
     restaurant: "Street Vendors",
     price: "UGX 1,000",
     popularity: 3,
@@ -132,7 +132,7 @@ const restaurants = [
     description: "Authentic Ugandan cuisine in a warm, welcoming atmosphere.",
     address: "Kampala Central",
     image:
-      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80",
+      "images/restaurant-karibu-kitchen.jpg",
     specialties: ["Matoke", "Luwombo", "Posho"],
   },
   {
@@ -144,7 +144,7 @@ const restaurants = [
     description: "Best street food in central Kampala with authentic flavors.",
     address: "Owino Market Area",
     image:
-      "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80",
+      "images/restaurant-street-eats.jpg",
     specialties: ["Rolex", "Samosa", "Muamba"],
   },
   {
@@ -156,7 +156,7 @@ const restaurants = [
     description: "East African cuisine with a modern twist.",
     address: "Kampala Suburbs",
     image:
-      "https://images.unsplash.com/photo-1590846406792-0adc7f938f1d?auto=format&fit=crop&w=800&q=80",
+      "images/restaurant-traditional-bites.jpg",
     specialties: ["Luwombo", "Chapati", "Beans"],
   },
   {
@@ -168,7 +168,7 @@ const restaurants = [
     description: "International cuisine with Ugandan influences.",
     address: "Downtown Kampala",
     image:
-      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80",
+      "images/restaurant-global-table.jpg",
     specialties: ["Fusion", "Ugandan Classics", "Fine Dining"],
   },
   {
@@ -180,7 +180,7 @@ const restaurants = [
     description: "Casual dining with traditional Ugandan meals.",
     address: "Various Locations",
     image:
-      "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=800&q=80",
+      "images/restaurant-local-cafe.jpg",
     specialties: ["Posho", "Beans", "Chapati"],
   },
   {
@@ -192,7 +192,7 @@ const restaurants = [
     description: "Aromatic East African cuisine with fresh ingredients.",
     address: "Kampala East",
     image:
-      "https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?auto=format&fit=crop&w=800&q=80",
+      "images/restaurant-spice-market.jpg",
     specialties: ["Spiced Rice", "Grilled Meats", "Vegetables"],
   },
 ];
@@ -509,11 +509,37 @@ function handleFormSubmit(e) {
   // Save to localStorage
   saveRecommendationRequest(formData);
 
-  // Show confirmation
-  alert(
-    `Thank you ${formData.name}! We'll send recommendations to ${formData.email} soon.`,
-  );
+  // Remember the latest request so the thank-you page can confirm the details
+  localStorage.setItem("latestRequest", JSON.stringify(formData));
+
   form.reset();
+
+  // Continue to the thank-you page (the form's action)
+  window.location.href = "thank-you.html";
+}
+
+/**
+ * Display the most recent recommendation request on the thank-you page
+ */
+function displayLatestRequest() {
+  const summary = document.getElementById("request-summary");
+  if (!summary) return;
+
+  const data = JSON.parse(localStorage.getItem("latestRequest"));
+  if (!data) {
+    summary.style.display = "none";
+    return;
+  }
+
+  summary.innerHTML = `
+    <h2>Your Request</h2>
+    <p><strong>Name:</strong> ${data.name}</p>
+    <p><strong>Email:</strong> ${data.email}</p>
+    <p><strong>Cuisine:</strong> ${data.cuisineType}</p>
+    <p><strong>Budget:</strong> ${data.priceRange}</p>
+    ${data.specialRequests ? `<p><strong>Special requests:</strong> ${data.specialRequests}</p>` : ""}
+    <p><strong>Submitted:</strong> ${data.timestamp}</p>
+  `;
 }
 
 /**
@@ -707,6 +733,9 @@ function init() {
   // Setup saved/favorite displays
   displaySavedRecommendations();
   displayFavoriteRestaurants();
+
+  // Show the latest request on the thank-you page
+  displayLatestRequest();
 
   // Setup clear all button
   const clearBtn = document.getElementById("clear-saved");
