@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurants - Kampala Plate</title>
+    <meta
+      name="description"
+      content="Find the best restaurants in Kampala. Browse by cuisine type, location, and price range to discover your next favorite dining spot."
+    />
+    <meta name="author" content="Uwase Jolie" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Nunito:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="scripts.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="header-wrapper">
+        <div class="logo" role="img" aria-label="Kampala Plate logo">KP</div>
+        <h1 class="site-title">Kampala Plate</h1>
+        <button
+          id="menu-button"
+          type="button"
+          aria-label="Open navigation menu"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav id="navigation">
+          <a href="index.html">Home</a>
+          <a href="food-guide.html">Food Guide</a>
+          <a href="restaurants.html" aria-current="page">Restaurants</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="restaurants-header">
+        <h1>Restaurants in Kampala</h1>
+        <p>Discover authentic dining experiences across all of Kampala</p>
+      </section>
+
+      <!-- Filters -->
+      <section class="filter-section">
+        <h2>Filter Restaurants</h2>
+        <div class="filters-wrapper">
+          <div class="filter-group">
+            <label for="cuisine-select">Cuisine Type:</label>
+            <select id="cuisine-select" aria-label="Filter by cuisine type">
+              <option value="all">All Cuisines</option>
+              <option value="ugandan">Traditional Ugandan</option>
+              <option value="east-african">East African</option>
+              <option value="international">International</option>
+            </select>
+          </div>
+
+          <div class="filter-group">
+            <label for="price-select">Price Range:</label>
+            <select id="price-select" aria-label="Filter by price range">
+              <option value="all">All Prices</option>
+              <option value="budget">Budget (UGX 5,000-15,000)</option>
+              <option value="moderate">Moderate (UGX 15,000-50,000)</option>
+              <option value="upscale">Upscale (UGX 50,000+)</option>
+            </select>
+          </div>
+
+          <button id="reset-filters" class="secondary-button">
+            Reset Filters
+          </button>
+        </div>
+      </section>
+
+      <!-- Restaurants List -->
+      <section class="restaurants-list-section">
+        <div class="restaurants-list" id="restaurants-list">
+          <!-- Populated by JavaScript -->
+        </div>
+      </section>
+
+      <!-- Save/Favorites Section -->
+      <section
+        class="favorites-section"
+        id="favorites-section"
+        style="display: none"
+      >
+        <h2>Your Favorite Restaurants</h2>
+        <p>Restaurants you've bookmarked for later</p>
+        <div id="favorites-list">
+          <!-- Populated from localStorage -->
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <p>
+          &copy; <span id="year"></span> Kampala Plate. All rights reserved.
+        </p>
+        <p>Last updated: <span id="last-modified"></span></p>
+        <p><a href="references.html">References & Citations</a></p>
+      </div>
+    </footer>
+  </body>
+</html>

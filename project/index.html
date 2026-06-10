@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kampala Plate - Local Food Discovery</title>
+    <meta
+      name="description"
+      content="Kampala Plate is your guide to memorable meals, popular restaurants, and authentic local food experiences in Kampala, Uganda."
+    />
+    <meta name="author" content="Uwase Jolie" />
+    <meta
+      name="keywords"
+      content="Kampala, food, restaurants, local cuisine, Uganda"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Nunito:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="scripts.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="header-wrapper">
+        <div class="logo" role="img" aria-label="Kampala Plate logo">KP</div>
+        <h1 class="site-title">Kampala Plate</h1>
+        <button
+          id="menu-button"
+          type="button"
+          aria-label="Open navigation menu"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav id="navigation">
+          <a href="index.html" aria-current="page">Home</a>
+          <a href="food-guide.html">Food Guide</a>
+          <a href="restaurants.html">Restaurants</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="hero-content">
+          <h2>Discover Kampala's Culinary Treasures</h2>
+          <p>
+            Your guide to authentic meals, hidden gems, and unforgettable food
+            experiences in Kampala
+          </p>
+          <a href="#featured" class="cta-button">Explore Now</a>
+        </div>
+      </section>
+
+      <!-- Featured Dishes Section -->
+      <section id="featured" class="featured-section">
+        <h2>Featured Dishes</h2>
+        <div class="dishes-grid" id="featured-dishes">
+          <!-- Populated by JavaScript -->
+        </div>
+      </section>
+
+      <!-- Restaurant Cards Section -->
+      <section class="restaurants-section">
+        <h2>Popular Restaurants</h2>
+        <div class="restaurants-grid" id="restaurants-grid">
+          <!-- Populated by JavaScript -->
+        </div>
+      </section>
+
+      <!-- Recommendation Form Section -->
+      <section class="form-section">
+        <h2>Get Food Recommendations</h2>
+        <p>
+          Tell us what you're looking for and we'll suggest the best spots in
+          Kampala
+        </p>
+        <form id="recommendation-form" method="post" action="thank-you.html">
+          <div class="form-group">
+            <label for="name"
+              >Your Name <span aria-hidden="true">*</span></label
+            >
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              placeholder="Enter your name"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="email"
+              >Email Address <span aria-hidden="true">*</span></label
+            >
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              placeholder="your@email.com"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="cuisine-type"
+              >What type of food are you interested in?
+              <span aria-hidden="true">*</span></label
+            >
+            <select id="cuisine-type" name="cuisine-type" required>
+              <option value="" disabled selected>
+                Select a cuisine type...
+              </option>
+              <option value="ugandan">Traditional Ugandan</option>
+              <option value="east-african">East African</option>
+              <option value="international">International</option>
+              <option value="vegetarian">Vegetarian/Vegan</option>
+              <option value="street-food">Street Food</option>
+              <option value="fast-food">Fast Food</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="price-range"
+              >Budget <span aria-hidden="true">*</span></label
+            >
+            <fieldset>
+              <legend class="sr-only">Price range options</legend>
+              <label class="radio-label">
+                <input
+                  type="radio"
+                  name="price-range"
+                  value="budget"
+                  required
+                />
+                Budget (UGX 5,000-15,000)
+              </label>
+              <label class="radio-label">
+                <input
+                  type="radio"
+                  name="price-range"
+                  value="moderate"
+                  required
+                />
+                Moderate (UGX 15,000-50,000)
+              </label>
+              <label class="radio-label">
+                <input
+                  type="radio"
+                  name="price-range"
+                  value="upscale"
+                  required
+                />
+                Upscale (UGX 50,000+)
+              </label>
+            </fieldset>
+          </div>
+
+          <div class="form-group">
+            <label for="special-requests"
+              >Special Requests or Preferences</label
+            >
+            <textarea
+              id="special-requests"
+              name="special-requests"
+              rows="4"
+              placeholder="Tell us about any dietary restrictions or specific preferences..."
+            ></textarea>
+          </div>
+
+          <div class="form-group checkbox-group">
+            <legend>How would you like to receive recommendations?</legend>
+            <label class="checkbox-label">
+              <input type="checkbox" name="contact-method" value="email" />
+              Email
+            </label>
+            <label class="checkbox-label">
+              <input type="checkbox" name="contact-method" value="phone" />
+              Phone
+            </label>
+          </div>
+
+          <button type="submit" class="submit-button">
+            Get Recommendations
+          </button>
+          <p class="form-note">
+            <span aria-hidden="true">*</span> Required fields
+          </p>
+        </form>
+      </section>
+
+      <!-- Saved Recommendations Section -->
+      <section class="saved-section" id="saved-section" style="display: none">
+        <h2>Your Saved Recommendations</h2>
+        <div id="saved-list">
+          <!-- Populated from localStorage -->
+        </div>
+        <button id="clear-saved" class="secondary-button">Clear All</button>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <p>
+          &copy; <span id="year"></span> Kampala Plate. All rights reserved.
+        </p>
+        <p>Last updated: <span id="last-modified"></span></p>
+        <p><a href="references.html">References & Citations</a></p>
+      </div>
+    </footer>
+  </body>
+</html>

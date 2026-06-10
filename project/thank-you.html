@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thank You - Kampala Plate</title>
+    <meta
+      name="description"
+      content="Thank you for submitting your recommendation request to Kampala Plate. We'll be in touch soon."
+    />
+    <meta name="author" content="Uwase Jolie" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Nunito:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="scripts.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="header-wrapper">
+        <div class="logo" role="img" aria-label="Kampala Plate logo">KP</div>
+        <h1 class="site-title">Kampala Plate</h1>
+        <button
+          id="menu-button"
+          type="button"
+          aria-label="Open navigation menu"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav id="navigation">
+          <a href="index.html">Home</a>
+          <a href="food-guide.html">Food Guide</a>
+          <a href="restaurants.html">Restaurants</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section style="text-align: center; padding: 4rem 2rem">
+        <div
+          style="
+            background-color: white;
+            padding: 3rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+            max-width: 600px;
+            margin: 0 auto;
+          "
+        >
+          <h1 style="color: #174c43; margin-top: 0">Thank You!</h1>
+          <p style="font-size: 1.1rem; color: #666; margin-bottom: 1.5rem">
+            Your recommendation request has been received and saved.
+          </p>
+
+          <div
+            style="
+              background-color: #fff8ec;
+              padding: 1.5rem;
+              border-left: 4px solid #f2b84b;
+              margin-bottom: 2rem;
+              text-align: left;
+            "
+          >
+            <h2 style="color: #174c43; margin-top: 0; font-size: 1.3rem">
+              What's Next?
+            </h2>
+            <ul style="color: #333; line-height: 1.8">
+              <li>We've saved your preferences in our system</li>
+              <li>Our team will review your request and cuisine preferences</li>
+              <li>We'll send personalized recommendations to your email</li>
+              <li>You can check your saved requests on the home page</li>
+            </ul>
+          </div>
+
+          <p style="color: #666; margin-bottom: 2rem">
+            Explore more of Kampala's culinary treasures while you wait!
+          </p>
+
+          <div
+            style="
+              display: flex;
+              gap: 1rem;
+              justify-content: center;
+              flex-wrap: wrap;
+            "
+          >
+            <a href="index.html" class="cta-button">Back to Home</a>
+            <a href="food-guide.html" class="cta-button">Explore Food Guide</a>
+            <a href="restaurants.html" class="cta-button">Browse Restaurants</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <p>
+          &copy; <span id="year"></span> Kampala Plate. All rights reserved.
+        </p>
+        <p>Last updated: <span id="last-modified"></span></p>
+        <p><a href="references.html">References & Citations</a></p>
+      </div>
+    </footer>
+  </body>
+</html>

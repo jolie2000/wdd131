@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Guide - Kampala Plate</title>
+    <meta
+      name="description"
+      content="Explore traditional Ugandan dishes and authentic local food experiences in Kampala. Your guide to what to eat and where to find it."
+    />
+    <meta name="author" content="Uwase Jolie" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Nunito:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="scripts.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="header-wrapper">
+        <div class="logo" role="img" aria-label="Kampala Plate logo">KP</div>
+        <h1 class="site-title">Kampala Plate</h1>
+        <button
+          id="menu-button"
+          type="button"
+          aria-label="Open navigation menu"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav id="navigation">
+          <a href="index.html">Home</a>
+          <a href="food-guide.html" aria-current="page">Food Guide</a>
+          <a href="restaurants.html">Restaurants</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="guide-header">
+        <h1>Kampala Food Guide</h1>
+        <p>
+          Discover authentic Ugandan and East African dishes you must try in
+          Kampala
+        </p>
+      </section>
+
+      <!-- Category Filter -->
+      <section class="filter-section">
+        <h2>Filter by Category</h2>
+        <div class="filter-buttons" id="category-filter">
+          <button class="filter-btn active" data-category="all">
+            All Dishes
+          </button>
+          <button class="filter-btn" data-category="main">Main Courses</button>
+          <button class="filter-btn" data-category="street">Street Food</button>
+          <button class="filter-btn" data-category="beverages">
+            Beverages
+          </button>
+        </div>
+      </section>
+
+      <!-- Food Items Grid -->
+      <section class="food-guide-section">
+        <div class="food-grid" id="food-grid">
+          <!-- Populated by JavaScript -->
+        </div>
+      </section>
+
+      <!-- Food Details Modal -->
+      <div id="food-modal" class="modal" style="display: none">
+        <div class="modal-content">
+          <button
+            class="modal-close"
+            id="modal-close"
+            aria-label="Close food details"
+          >
+            &times;
+          </button>
+          <div id="modal-body">
+            <!-- Populated by JavaScript -->
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <p>
+          &copy; <span id="year"></span> Kampala Plate. All rights reserved.
+        </p>
+        <p>Last updated: <span id="last-modified"></span></p>
+        <p><a href="references.html">References & Citations</a></p>
+      </div>
+    </footer>
+  </body>
+</html>
