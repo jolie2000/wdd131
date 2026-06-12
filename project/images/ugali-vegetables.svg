@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 533" role="img" aria-labelledby="title desc">
+  <title id="title">Ugali with Vegetables</title>
+  <desc id="desc">Ugali served with green vegetables and gravy.</desc>
+  <rect width="800" height="533" fill="#174c43"/>
+  <path d="M0 366c161-89 333-80 800-12v179H0z" fill="#fff8ec"/>
+  <circle cx="337" cy="258" r="92" fill="#f7f0d8"/>
+  <path d="M410 221c72 16 118 59 118 105 0 58-69 91-151 78-82-14-124-67-91-118 22-34 68-77 124-65z" fill="#557f38"/>
+  <text x="400" y="458" text-anchor="middle" font-family="Arial, sans-serif" font-size="39" font-weight="700" fill="#174c43">Ugali with Vegetables</text>
+</svg>

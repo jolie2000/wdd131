@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 533" role="img" aria-labelledby="title desc">
+  <title id="title">Samosa</title>
+  <desc id="desc">Golden triangular samosas on a warm background.</desc>
+  <rect width="800" height="533" fill="#f2b84b"/>
+  <circle cx="142" cy="88" r="90" fill="#174c43" opacity=".22"/>
+  <path d="M234 320l123-214 123 214z" fill="#c66d28"/>
+  <path d="M320 320l119-203 126 203z" fill="#e09235"/>
+  <text x="400" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" font-weight="700" fill="#174c43">Samosa</text>
+</svg>

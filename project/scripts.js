@@ -14,8 +14,7 @@ const featuredDishes = [
     category: "main",
     description:
       "Steamed green bananas with peanut sauce. A beloved traditional Ugandan staple.",
-    image:
-      "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80",
+    image: "images/matoke.svg",
     restaurant: "Karibu Kitchen",
     price: "UGX 15,000",
     popularity: 5,
@@ -26,8 +25,7 @@ const featuredDishes = [
     category: "main",
     description:
       "Cornmeal served with savory bean stew. Hearty and filling comfort food.",
-    image:
-      "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=800&q=80",
+    image: "images/posho-beans.svg",
     restaurant: "Local Cafe",
     price: "UGX 8,000",
     popularity: 4,
@@ -38,8 +36,7 @@ const featuredDishes = [
     category: "street",
     description:
       "Chapati wrapped around eggs and vegetables. Popular street food with endless variations.",
-    image:
-      "https://images.unsplash.com/photo-1626700051175-6518c4793f4f?auto=format&fit=crop&w=800&q=80",
+    image: "images/rolex.svg",
     restaurant: "Street Vendors",
     price: "UGX 3,000",
     popularity: 5,
@@ -50,8 +47,7 @@ const featuredDishes = [
     category: "main",
     description:
       "Meat or chicken wrapped in banana leaves and steamed. Authentic and aromatic.",
-    image:
-      "https://images.unsplash.com/photo-1606787366850-de6330128bfc?auto=format&fit=crop&w=800&q=80",
+    image: "images/luwombo.svg",
     restaurant: "Traditional Bites",
     price: "UGX 20,000",
     popularity: 4,
@@ -62,8 +58,7 @@ const featuredDishes = [
     category: "street",
     description:
       "Fried pastry with savory filling. Perfect snack for any time of day.",
-    image:
-      "https://images.unsplash.com/photo-1601050690597-df056fb4ce78?auto=format&fit=crop&w=800&q=80",
+    image: "images/samosa.svg",
     restaurant: "Street Vendors",
     price: "UGX 2,000",
     popularity: 5,
@@ -73,8 +68,7 @@ const featuredDishes = [
     name: "Ugali with Vegetables",
     category: "main",
     description: "Maize meal served with fresh seasonal vegetables and gravy.",
-    image:
-      "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80",
+    image: "images/ugali-vegetables.svg",
     restaurant: "Home Kitchen",
     price: "UGX 12,000",
     popularity: 4,
@@ -89,8 +83,7 @@ const foodGuide = [
     name: "Mandasi",
     category: "beverages",
     description: "Sweet fried dough pastry. Often served with tea or coffee.",
-    image:
-      "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=800&q=80",
+    image: "images/mandasi.svg",
     restaurant: "Bakeries",
     price: "UGX 500",
     popularity: 4,
@@ -101,8 +94,7 @@ const foodGuide = [
     category: "main",
     description:
       "Flatbread made with flour and cooked on griddle. Versatile and delicious.",
-    image:
-      "https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&w=800&q=80",
+    image: "images/chapati.svg",
     restaurant: "Various",
     price: "UGX 1,500",
     popularity: 5,
@@ -113,8 +105,7 @@ const foodGuide = [
     category: "beverages",
     description:
       "Ginger and spice-infused beverage. Warm, comforting, and energizing.",
-    image:
-      "https://images.unsplash.com/photo-1608500218900-8afa135d3beb?auto=format&fit=crop&w=800&q=80",
+    image: "images/muamba.svg",
     restaurant: "Street Vendors",
     price: "UGX 1,000",
     popularity: 3,
@@ -131,8 +122,7 @@ const restaurants = [
     rating: 4.8,
     description: "Authentic Ugandan cuisine in a warm, welcoming atmosphere.",
     address: "Kampala Central",
-    image:
-      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80",
+    image: "images/karibu-kitchen.svg",
     specialties: ["Matoke", "Luwombo", "Posho"],
   },
   {
@@ -143,8 +133,7 @@ const restaurants = [
     rating: 4.5,
     description: "Best street food in central Kampala with authentic flavors.",
     address: "Owino Market Area",
-    image:
-      "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80",
+    image: "images/street-eats.svg",
     specialties: ["Rolex", "Samosa", "Muamba"],
   },
   {
@@ -155,8 +144,7 @@ const restaurants = [
     rating: 4.6,
     description: "East African cuisine with a modern twist.",
     address: "Kampala Suburbs",
-    image:
-      "https://images.unsplash.com/photo-1590846406792-0adc7f938f1d?auto=format&fit=crop&w=800&q=80",
+    image: "images/traditional-bites.svg",
     specialties: ["Luwombo", "Chapati", "Beans"],
   },
   {
@@ -167,8 +155,7 @@ const restaurants = [
     rating: 4.7,
     description: "International cuisine with Ugandan influences.",
     address: "Downtown Kampala",
-    image:
-      "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80",
+    image: "images/global-table.svg",
     specialties: ["Fusion", "Ugandan Classics", "Fine Dining"],
   },
   {
@@ -179,8 +166,7 @@ const restaurants = [
     rating: 4.3,
     description: "Casual dining with traditional Ugandan meals.",
     address: "Various Locations",
-    image:
-      "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=800&q=80",
+    image: "images/local-cafe.svg",
     specialties: ["Posho", "Beans", "Chapati"],
   },
   {
@@ -191,8 +177,7 @@ const restaurants = [
     rating: 4.4,
     description: "Aromatic East African cuisine with fresh ingredients.",
     address: "Kampala East",
-    image:
-      "https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?auto=format&fit=crop&w=800&q=80",
+    image: "images/spice-market.svg",
     specialties: ["Spiced Rice", "Grilled Meats", "Vegetables"],
   },
 ];
@@ -409,6 +394,7 @@ function toggleMenu() {
 
   menuBtn.addEventListener("click", () => {
     const isOpen = nav.classList.toggle("open");
+    menuBtn.classList.toggle("open", isOpen);
     menuBtn.setAttribute("aria-expanded", isOpen);
   });
 }
@@ -476,7 +462,7 @@ function showFoodDetails(e) {
 
   // Template literal for modal content
   const modalContent = `
-    <img src="${food.image}" alt="${food.name}" style="width: 100%; margin-bottom: 1rem; border-radius: 0.5rem;">
+    <img src="${food.image}" alt="${food.name}" class="modal-food-image">
     <h2>${food.name}</h2>
     <p><strong>Category:</strong> ${food.category.toUpperCase()}</p>
     <p><strong>Description:</strong> ${food.description}</p>
@@ -486,7 +472,7 @@ function showFoodDetails(e) {
   `;
 
   modalBody.innerHTML = modalContent;
-  modal.style.display = "flex";
+  modal.hidden = false;
 }
 
 /**
@@ -509,11 +495,7 @@ function handleFormSubmit(e) {
   // Save to localStorage
   saveRecommendationRequest(formData);
 
-  // Show confirmation
-  alert(
-    `Thank you ${formData.name}! We'll send recommendations to ${formData.email} soon.`,
-  );
-  form.reset();
+  window.location.href = form.action;
 }
 
 /**
@@ -542,16 +524,16 @@ function displaySavedRecommendations() {
     JSON.parse(localStorage.getItem("recommendationRequests")) || [];
 
   if (requests.length === 0) {
-    savedSection.style.display = "none";
+    savedSection.hidden = true;
     return;
   }
 
-  savedSection.style.display = "block";
+  savedSection.hidden = false;
 
   const html = requests
     .map(
       (req, index) => `
-    <div class="saved-item" style="padding: 1rem; border: 1px solid #e0e0e0; margin-bottom: 1rem; border-radius: 0.5rem;">
+    <div class="saved-item">
       <h3>${req.name}</h3>
       <p><strong>Email:</strong> ${req.email}</p>
       <p><strong>Cuisine:</strong> ${req.cuisineType}</p>
@@ -636,11 +618,11 @@ function displayFavoriteRestaurants() {
     JSON.parse(localStorage.getItem("favoriteRestaurants")) || [];
 
   if (favorites.length === 0) {
-    favSection.style.display = "none";
+    favSection.hidden = true;
     return;
   }
 
-  favSection.style.display = "block";
+  favSection.hidden = false;
   const html = favorites
     .map((restaurant) => createRestaurantCard(restaurant))
     .join("");
@@ -662,12 +644,12 @@ function setupModalHandlers() {
   if (!modal || !closeBtn) return;
 
   closeBtn.addEventListener("click", () => {
-    modal.style.display = "none";
+    modal.hidden = true;
   });
 
   modal.addEventListener("click", (e) => {
     if (e.target === modal) {
-      modal.style.display = "none";
+      modal.hidden = true;
     }
   });
 }

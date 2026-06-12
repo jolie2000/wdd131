@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 533" role="img" aria-labelledby="title desc">
+  <title id="title">Posho and Bean Stew</title>
+  <desc id="desc">A bowl of posho served with red bean stew.</desc>
+  <rect width="800" height="533" fill="#fff8ec"/>
+  <rect width="800" height="180" fill="#174c43"/>
+  <circle cx="400" cy="286" r="180" fill="#f2b84b"/>
+  <circle cx="332" cy="270" r="86" fill="#f6f0db"/>
+  <path d="M390 207c95 0 154 53 154 111s-65 100-154 100-153-42-153-100 58-111 153-111z" fill="#9b3d2e"/>
+  <text x="400" y="461" text-anchor="middle" font-family="Arial, sans-serif" font-size="40" font-weight="700" fill="#174c43">Posho and Beans</text>
+</svg>

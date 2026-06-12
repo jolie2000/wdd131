@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 533" role="img" aria-labelledby="title desc">
+  <title id="title">Local Cafe</title>
+  <desc id="desc">A cafe cup and small plate on a table.</desc>
+  <rect width="800" height="533" fill="#fff8ec"/>
+  <rect y="332" width="800" height="201" fill="#f2b84b"/>
+  <path d="M289 177h186v133c0 56-44 88-93 88s-93-32-93-88z" fill="#174c43"/>
+  <path d="M480 229c83 6 85 91-5 99" fill="none" stroke="#174c43" stroke-width="24" stroke-linecap="round"/>
+  <text x="400" y="462" text-anchor="middle" font-family="Arial, sans-serif" font-size="46" font-weight="700" fill="#174c43">Local Cafe</text>
+</svg>

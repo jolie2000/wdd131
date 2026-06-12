@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 533" role="img" aria-labelledby="title desc">
+  <title id="title">Karibu Kitchen</title>
+  <desc id="desc">A warm restaurant storefront illustration.</desc>
+  <rect width="800" height="533" fill="#fff8ec"/>
+  <rect y="344" width="800" height="189" fill="#174c43"/>
+  <rect x="170" y="148" width="460" height="255" rx="12" fill="#f2b84b"/>
+  <path d="M150 148h500l-58-80H208z" fill="#a5512d"/>
+  <text x="400" y="464" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#f2b84b">Karibu Kitchen</text>
+</svg>

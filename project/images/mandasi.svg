@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 533" role="img" aria-labelledby="title desc">
+  <title id="title">Mandasi</title>
+  <desc id="desc">Sweet fried dough pastries with tea.</desc>
+  <rect width="800" height="533" fill="#fff8ec"/>
+  <rect width="800" height="170" fill="#a5512d"/>
+  <path d="M214 289l82-122 114 95-71 117z" fill="#d48936"/>
+  <path d="M397 212l122-48 75 123-135 67z" fill="#c9772f"/>
+  <circle cx="560" cy="231" r="54" fill="#f2b84b"/>
+  <text x="400" y="457" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" font-weight="700" fill="#174c43">Mandasi</text>
+</svg>

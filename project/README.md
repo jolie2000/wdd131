@@ -13,7 +13,7 @@ This is a complete web development project created for WDD 131 - Dynamic Web Fun
 ### 1. **Home Page (index.html)**
 
 - Hero section with site introduction
-- Featured dishes section (top 3 recommendations)
+- Featured dishes section with six local recommendations
 - Popular restaurants grid
 - Recommendation request form
 - Saved recommendations display (from localStorage)
@@ -155,7 +155,6 @@ Fonts are loaded from Google Fonts API.
 - `.map()` - Transform arrays to HTML
 - `.filter()` - Filter items by criteria
 - `.find()` - Locate specific items
-- `.slice()` - Get array subsets
 - `.some()` - Check item existence
 - `.splice()` - Remove array items
 - `.join()` - Combine array elements
@@ -178,7 +177,7 @@ Fonts are loaded from Google Fonts API.
 2. Use "Food Guide" to browse all dishes by category
 3. Visit "Restaurants" to find dining options
 4. Fill out the recommendation form to get personalized suggestions
-5. Click heart icon to save favorite restaurants
+5. Click Save to bookmark favorite restaurants
 6. Your data is saved automatically
 
 ### For Developers
@@ -248,16 +247,18 @@ To test the site:
 
 ```
 project/
-├── index.html              # Home page
-├── food-guide.html         # Food browsing page
-├── restaurants.html        # Restaurant browsing page
-├── thank-you.html          # Form confirmation
-├── references.html         # Citations page
-├── siteplan.html           # Project planning doc
-├── styles.css              # Main stylesheet
-├── scripts.js              # JavaScript functionality
-├── siteplan.css            # Siteplan styling
-└── PROJECT_CHECKLIST.md    # Testing checklist
+|-- images/                 # Local optimized SVG images
+|-- index.html              # Home page
+|-- food-guide.html         # Food browsing page
+|-- restaurants.html        # Restaurant browsing page
+|-- thank-you.html          # Form confirmation
+|-- references.html         # Citations page
+|-- siteplan.html           # Project planning doc
+|-- styles.css              # Main stylesheet
+|-- scripts.js              # JavaScript functionality
+|-- siteplan.css            # Siteplan styling
+|-- readme.md               # Project documentation
+`-- project-checklist.md    # Testing checklist
 ```
 
 ---
@@ -308,5 +309,4 @@ This project is an educational work created for coursework. Content is for learn
 
 ---
 
-**Site URL:** [Your GitHub Pages URL]
 **Last Updated:** 2026-06-10

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 533" role="img" aria-labelledby="title desc">
+  <title id="title">Rolex</title>
+  <desc id="desc">A rolled chapati filled with egg and vegetables.</desc>
+  <rect width="800" height="533" fill="#2b6f64"/>
+  <circle cx="630" cy="92" r="82" fill="#f2b84b"/>
+  <rect x="190" y="188" width="420" height="150" rx="75" fill="#ddb36b" transform="rotate(-8 400 263)"/>
+  <circle cx="345" cy="245" r="32" fill="#fff8ec"/>
+  <path d="M390 228l42 26 50-39" fill="none" stroke="#5f9b4d" stroke-width="18" stroke-linecap="round"/>
+  <text x="400" y="452" text-anchor="middle" font-family="Arial, sans-serif" font-size="50" font-weight="700" fill="#fff">Rolex</text>
+</svg>

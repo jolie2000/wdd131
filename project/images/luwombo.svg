@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 533" role="img" aria-labelledby="title desc">
+  <title id="title">Luwombo</title>
+  <desc id="desc">A banana leaf parcel tied around a steamed meal.</desc>
+  <rect width="800" height="533" fill="#fff8ec"/>
+  <rect y="350" width="800" height="183" fill="#174c43"/>
+  <path d="M258 160c99-52 209-52 284 0 45 31 44 119 0 161-74 70-207 70-284 0-45-41-44-130 0-161z" fill="#5f8f3c"/>
+  <path d="M400 143v231" stroke="#2d5a2f" stroke-width="14" stroke-linecap="round"/>
+  <path d="M310 242h180" stroke="#8a5a2d" stroke-width="14" stroke-linecap="round"/>
+  <text x="400" y="458" text-anchor="middle" font-family="Arial, sans-serif" font-size="46" font-weight="700" fill="#f2b84b">Luwombo</text>
+</svg>

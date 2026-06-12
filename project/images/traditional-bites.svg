@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 533" role="img" aria-labelledby="title desc">
+  <title id="title">Traditional Bites</title>
+  <desc id="desc">A table setting with a covered traditional dish.</desc>
+  <rect width="800" height="533" fill="#fff8ec"/>
+  <rect width="800" height="180" fill="#174c43"/>
+  <rect x="226" y="298" width="348" height="51" rx="25" fill="#a5512d"/>
+  <path d="M263 298c39-111 232-111 274 0z" fill="#f2b84b"/>
+  <text x="400" y="457" text-anchor="middle" font-family="Arial, sans-serif" font-size="43" font-weight="700" fill="#174c43">Traditional Bites</text>
+</svg>

@@ -371,6 +371,16 @@ form {
   margin: 0 auto;
 }
 
+fieldset {
+  border: 0;
+}
+
+legend {
+  font-weight: 600;
+  margin-bottom: var(--spacing-xs);
+  color: var(--text-dark);
+}
+
 .form-group {
   margin-bottom: var(--spacing-lg);
 }
@@ -491,6 +501,10 @@ input[type="checkbox"] {
   z-index: 1000;
 }
 
+.modal[hidden] {
+  display: none;
+}
+
 .modal-content {
   background-color: var(--white);
   border-radius: 0.5rem;
@@ -516,6 +530,117 @@ input[type="checkbox"] {
 
 .modal-close:hover {
   color: var(--primary-color);
+}
+
+.modal-food-image {
+  width: 100%;
+  margin-bottom: var(--spacing-sm);
+  border-radius: 0.5rem;
+}
+
+.saved-item {
+  padding: var(--spacing-sm);
+  border: 1px solid var(--border-color);
+  margin-bottom: var(--spacing-sm);
+  border-radius: 0.5rem;
+}
+
+/* ========================================
+   REFERENCES & THANK YOU PAGES
+   ======================================== */
+
+.references-page {
+  max-width: 900px;
+}
+
+.references-page section,
+.thank-you-card {
+  background-color: var(--white);
+  border-radius: 0.5rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.references-page section {
+  padding: var(--spacing-lg);
+  margin-bottom: var(--spacing-lg);
+}
+
+.references-page h2 {
+  color: var(--primary-color);
+  border-bottom: 3px solid var(--secondary-color);
+  padding-bottom: var(--spacing-xs);
+}
+
+.references-page ul {
+  list-style-position: inside;
+  line-height: 1.8;
+}
+
+.references-page li {
+  margin-bottom: var(--spacing-xs);
+}
+
+.reference-item,
+.next-steps {
+  background-color: var(--neutral-bg);
+  padding: var(--spacing-sm);
+  margin-bottom: var(--spacing-sm);
+  border-left: 4px solid var(--secondary-color);
+  border-radius: 0.25rem;
+}
+
+.reference-item strong {
+  color: var(--primary-color);
+}
+
+.thank-you-section {
+  text-align: center;
+  padding: var(--spacing-2xl) var(--spacing-lg);
+}
+
+.thank-you-card {
+  padding: var(--spacing-xl);
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: var(--shadow-md);
+}
+
+.thank-you-card h1,
+.next-steps h2 {
+  color: var(--primary-color);
+  margin-top: 0;
+}
+
+.thank-you-lead {
+  font-size: 1.1rem;
+  color: var(--text-light);
+  margin-bottom: var(--spacing-md);
+}
+
+.next-steps {
+  margin-bottom: var(--spacing-lg);
+  text-align: left;
+}
+
+.next-steps h2 {
+  font-size: 1.3rem;
+}
+
+.next-steps ul {
+  color: var(--text-dark);
+  line-height: 1.8;
+}
+
+.thank-you-note {
+  color: var(--text-light);
+  margin-bottom: var(--spacing-lg);
+}
+
+.thank-you-actions {
+  display: flex;
+  gap: var(--spacing-sm);
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 /* ========================================

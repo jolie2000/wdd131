@@ -128,7 +128,6 @@
 - `.map()` - Generate HTML from arrays
 - `.filter()` - Filter dishes/restaurants by category/price
 - `.find()` - Find specific items by ID
-- `.slice()` - Get subset of dishes
 - `.some()` - Check if item exists in favorites
 - `.splice()` - Remove items from favorites
 - `.join()` - Join HTML strings

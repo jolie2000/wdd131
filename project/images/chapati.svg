@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 533" role="img" aria-labelledby="title desc">
+  <title id="title">Chapati</title>
+  <desc id="desc">Stacked round chapati flatbreads.</desc>
+  <rect width="800" height="533" fill="#2b6f64"/>
+  <path d="M0 0h800v154H0z" fill="#f2b84b"/>
+  <ellipse cx="400" cy="292" rx="210" ry="90" fill="#c68135"/>
+  <ellipse cx="400" cy="263" rx="210" ry="90" fill="#e5b467"/>
+  <text x="400" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" font-weight="700" fill="#fff">Chapati</text>
+</svg>

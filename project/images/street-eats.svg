@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 533" role="img" aria-labelledby="title desc">
+  <title id="title">Street Eats Kampala</title>
+  <desc id="desc">A street food cart with a canopy.</desc>
+  <rect width="800" height="533" fill="#2b6f64"/>
+  <rect y="365" width="800" height="168" fill="#fff8ec"/>
+  <rect x="198" y="210" width="404" height="155" rx="12" fill="#f2b84b"/>
+  <path d="M170 156h460l-34 66H204z" fill="#fff8ec"/>
+  <text x="400" y="464" text-anchor="middle" font-family="Arial, sans-serif" font-size="41" font-weight="700" fill="#174c43">Street Eats Kampala</text>
+</svg>

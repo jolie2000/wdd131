@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 533" role="img" aria-labelledby="title desc">
+  <title id="title">Muamba</title>
+  <desc id="desc">A warm ginger drink in a glass cup.</desc>
+  <rect width="800" height="533" fill="#174c43"/>
+  <circle cx="620" cy="120" r="115" fill="#f2b84b"/>
+  <path d="M310 174h180l-25 196H335z" fill="#fff8ec"/>
+  <path d="M330 225h140l-14 117H344z" fill="#c77a2c"/>
+  <text x="400" y="458" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" font-weight="700" fill="#fff">Muamba</text>
+</svg>

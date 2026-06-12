@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 533" role="img" aria-labelledby="title desc">
+  <title id="title">Spice Market</title>
+  <desc id="desc">Colorful spice bowls arranged like a market display.</desc>
+  <rect width="800" height="533" fill="#fff8ec"/>
+  <rect width="800" height="160" fill="#a5512d"/>
+  <circle cx="285" cy="275" r="70" fill="#174c43"/>
+  <circle cx="400" cy="275" r="70" fill="#c65432"/>
+  <circle cx="515" cy="275" r="70" fill="#6a9b45"/>
+  <text x="400" y="458" text-anchor="middle" font-family="Arial, sans-serif" font-size="46" font-weight="700" fill="#174c43">Spice Market</text>
+</svg>
